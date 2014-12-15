@@ -127,7 +127,7 @@ class ImporterController < ApplicationController
       end
     end
 
-    user_for_login(login)
+    user_for_login!(login)
   end
 
   # Returns the id for the given user or raises RecordNotFound
